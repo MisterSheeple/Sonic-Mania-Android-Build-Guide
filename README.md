@@ -13,4 +13,6 @@ This is a guide to building your own Sonic Mania APK for Android. This build is 
 9. Once the NDK is installed, click Build in the navigation bar, and click Make Project.
 10. If all goes right, then your assembled APK should be located in `C:\RSDKv5-Decompilation\android\app\build\outputs\apk\debug`.
 
+# Support
+
 If you need any support, please feel free to reach out to me on Discord @MisterSheeple#0321 in the Retro Engine Modding Server. Invite: http://dc.railgun.works/retroengine
