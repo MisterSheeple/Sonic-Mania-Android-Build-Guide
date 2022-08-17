@@ -1,5 +1,5 @@
 @echo off
-echo MisterSheeple's Sonic Mania Android Build Helper v1.1
+echo MisterSheeple's Sonic Mania Android Build Helper v1.2
 echo ---WARNING---
 echo Before continuing, please consult the guide at https://github.com/MisterSheeple/Sonic-Mania-Android-Build-Guide/
 pause
@@ -40,6 +40,7 @@ move C:\RSDKv5-Decompilation\dependencies\android\libogg-1.3.5\include\ogg\Makef
 move C:\RSDKv5-Decompilation\dependencies\android\libogg-1.3.5\include\ogg\ogg.h C:\RSDKv5-Decompilation\dependencies\android\libogg\include\ogg\ogg.h
 move C:\RSDKv5-Decompilation\dependencies\android\libogg-1.3.5\include\ogg\os_types.h C:\RSDKv5-Decompilation\dependencies\android\libogg\include\ogg\os_types.h
 rmdir C:\RSDKv5-Decompilation\dependencies\android\libogg-1.3.5\ /s /q
+del libtheora.zip libogg.zip
 cd C:\
 echo Dependencies done.
 cls
