@@ -19,7 +19,6 @@ git clone https://github.com/Rubberduckycooly/GameAPI.git C:\GameAPI
 cd C:\RSDKv5-Decompilation\dependencies\all
 git clone https://github.com/leethomason/tinyxml2.git C:\RSDKv5-Decompilation\dependencies\all\tinyxml2
 git clone https://github.com/nothings/stb.git C:\RSDKv5-Decompilation\dependencies\all\stb_vorbis
-cd C:\
 echo Cloning done.
 cls
 goto dependencies
@@ -41,7 +40,6 @@ move C:\RSDKv5-Decompilation\dependencies\android\libogg-1.3.5\include\ogg\ogg.h
 move C:\RSDKv5-Decompilation\dependencies\android\libogg-1.3.5\include\ogg\os_types.h C:\RSDKv5-Decompilation\dependencies\android\libogg\include\ogg\os_types.h
 rmdir C:\RSDKv5-Decompilation\dependencies\android\libogg-1.3.5\ /s /q
 del libtheora.zip libogg.zip
-cd C:\
 echo Dependencies done.
 cls
 goto touchsetup
