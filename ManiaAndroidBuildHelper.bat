@@ -47,7 +47,6 @@ goto touchsetup
 
 :touchsetup
 cd C:\RSDKv5-Example-Mods\ManiaTouchControls
-echo var is %touch%
 if /I %touch%==n (goto ultrawidesetup) else (mklink /D "GameAPI" C:\GameAPI)
 cd C:\RSDKv5-Decompilation\android\app\jni
 mklink /D "MTC" C:\RSDKv5-Example-Mods\ManiaTouchControls
