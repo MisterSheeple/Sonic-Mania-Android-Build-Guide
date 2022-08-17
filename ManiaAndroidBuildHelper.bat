@@ -1,11 +1,19 @@
 @echo off
-echo MisterSheeple's Sonic Mania Android Build Helper v1.2
-echo ---WARNING---
+echo ------------------------------------------------------
+echo MisterSheeple's Sonic Mania Android Build Helper v1.3
+echo ------------------------------------------------------
+echo.
+echo                                                  WARNING:
+echo.
 echo Before continuing, please consult the guide at https://github.com/MisterSheeple/Sonic-Mania-Android-Build-Guide/
+echo.
 pause
+echo.
 goto preferences
 
 :preferences
+set touch=y
+set ultrawide=y
 set /p touch=Build with touch controls? (y/n; default is y) 
 set /p ultrawide=Build with ultrawide? (y/n; default is y) 
 cls
@@ -69,6 +77,10 @@ goto finish
 
 :finish
 cls
+color AF
+echo -------------------------------------------------------------------------------------------------------------------
 echo SETUP COMPLETE. Please continue with the guide at https://github.com/MisterSheeple/Sonic-Mania-Android-Build-Guide/
+echo -------------------------------------------------------------------------------------------------------------------
+echo.
 pause
 exit
