@@ -2,7 +2,7 @@
 
 This is a guide to building your own Sonic Mania APK for Android. This guide is currently intended for Windows 10/Windows 11 users only. An Android build guide for Linux is coming soon.
 
-## Instructions
+## Instructions (Windows)
 
 1. Install Git from [here](https://gitforwindows.org/) if you don't already have it.
 2. Install Android Studio from [here](https://developer.android.com/studio) if you don't already have it.
