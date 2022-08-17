@@ -1,5 +1,5 @@
 @echo off
-echo MisterSheeple's Sonic Mania Android Build Helper v1.0
+echo MisterSheeple's Sonic Mania Android Build Helper v1.1
 echo ---WARNING---
 echo Before continuing, please consult the guide at https://github.com/MisterSheeple/Sonic-Mania-Android-Build-Guide/
 pause
@@ -26,8 +26,8 @@ goto dependencies
 
 :dependencies
 cd C:\RSDKv5-Decompilation\dependencies\android
-curl -L https://downloads.xiph.org/releases/theora/libtheora-1.1.1.zip --output libtheora.zip
-curl -L https://downloads.xiph.org/releases/ogg/libogg-1.3.5.zip --output libogg.zip
+curl -L http://downloads.xiph.org/releases/theora/libtheora-1.1.1.zip --output libtheora.zip
+curl -L http://downloads.xiph.org/releases/ogg/libogg-1.3.5.zip --output libogg.zip
 powershell -command "Expand-Archive -LiteralPath 'C:\RSDKv5-Decompilation\dependencies\android\libtheora.zip' -DestinationPath 'C:\RSDKv5-Decompilation\dependencies\android\'"
 powershell -command "Expand-Archive -LiteralPath 'C:\RSDKv5-Decompilation\dependencies\android\libogg.zip' -DestinationPath 'C:\RSDKv5-Decompilation\dependencies\android\'"
 rename libtheora-1.1.1 libtheora
