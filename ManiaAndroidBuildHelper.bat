@@ -12,6 +12,7 @@ cls
 goto clone
 
 :clone
+cd C:\
 git clone https://github.com/Rubberduckycooly/Sonic-Mania-Decompilation.git C:\Sonic-Mania-Decompilation
 git clone https://github.com/Rubberduckycooly/RSDKv5-Decompilation.git C:\RSDKv5-Decompilation
 git clone https://github.com/Rubberduckycooly/RSDKv5-Example-Mods.git C:\RSDKv5-Example-Mods
