@@ -64,7 +64,7 @@ cd C:\RSDKv5-Decompilation\android\app\jni
 mklink /D "GameAPI" C:\GameAPI
 mklink /D "Game" C:\Sonic-Mania-Decompilation
 mklink /D "RSDKv5" C:\RSDKv5-Decompilation
-echo Symlink setup is done.
+echo Symlink setup done.
 goto finish
 
 :finish
