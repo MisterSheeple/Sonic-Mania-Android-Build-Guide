@@ -1,6 +1,6 @@
 @echo off
 echo ------------------------------------------------------
-echo MisterSheeple's Sonic Mania Android Build Helper v1.4
+echo MisterSheeple's Sonic Mania Android Build Helper v1.5
 echo ------------------------------------------------------
 echo.
 echo                                                  WARNING:
@@ -21,9 +21,12 @@ goto clone
 
 :clone
 cd C:\
-git clone https://github.com/Rubberduckycooly/Sonic-Mania-Decompilation.git C:\Sonic-Mania-Decompilation --recursive
+git clone https://github.com/Rubberduckycooly/Sonic-Mania-Decompilation.git C:\Sonic-Mania-Decompilation
 git clone https://github.com/Rubberduckycooly/RSDKv5-Example-Mods.git C:\RSDKv5-Example-Mods
 git clone https://github.com/Rubberduckycooly/GameAPI.git C:\GameAPI
+git clone https://github.com/Rubberduckycooly/RSDKv5-Decompilation.git C:\Sonic-Mania-Decompilation\dependencies\RSDKv5
+git clone https://github.com/nothings/stb.git C:\Sonic-Mania-Decompilation\dependencies\RSDKv5\dependencies\all\stb_vorbis
+git clone https://github.com/leethomason/tinyxml2.git C:\Sonic-Mania-Decompilation\dependencies\RSDKv5\dependencies\all\tinyxml2
 echo Cloning done.
 cls
 goto dependencies
