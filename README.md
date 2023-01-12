@@ -1,6 +1,6 @@
 # Sonic Mania Decompilation: Android Build Guide
 
-This is a guide to building your own Sonic Mania APK for Android. This guide is currently intended for Windows users only.
+This is a guide to building your own Sonic Mania APK for Android. This guide is intended for Windows users only.
 
 ## Instructions (Windows)
 
