@@ -6,9 +6,9 @@ This is a guide to building your own Sonic Mania APK for Android. This guide is 
 
 1. Install Git from [here](https://gitforwindows.org/) if you don't already have it.
 2. Install Android Studio from [here](https://developer.android.com/studio) if you don't already have it.
-3. Download the **Sonic Mania Android Build Helper** script from [here]( https://raw.githubusercontent.com/Kiaru-the-Fox/Sonic-Mania-Android-Build-Guide/main/ManiaAndroidBuildHelper_2.2b.bat). This script will automate a lot of the difficult parts of the Android build process to make compilation easier.
-4. Locate `ManiaAndroidBuildHelper_2.2b.bat` and place it somewhere easy-to-access. No specific location is required.
-5. Right click `ManiaAndroidBuildHelper_2.2b.bat` and click "Run As Administrator". This is very important. ***If you do not select Run As Administrator, the script will fail to create the required symlinks, and it will not compile correctly!!***
+3. Download the **Sonic Mania Android Build Helper** script from [here]( https://raw.githubusercontent.com/Kiaru-the-Fox/Sonic-Mania-Android-Build-Guide/main/ManiaAndroidBuildHelper_2.3b.bat). This script will automate a lot of the difficult parts of the Android build process to make compilation easier.
+4. Locate `ManiaAndroidBuildHelper_2.3b.bat` and place it somewhere easy-to-access. No specific location is required.
+5. Right click `ManiaAndroidBuildHelper_2.3b.bat` and click "Run As Administrator". This is very important. ***If you do not select Run As Administrator, the script will fail to create the required symlinks, and it will not compile correctly!!***
 6. Follow the directions in the command line window. You should want to choose `y` for both options, but neither are technically _required_.
 - 6a. The script will say "Access is Denied" exactly once. This is **normal**, and does not matter.
 7. Once the script says "SETUP COMPLETE", open Android Studio, click File in the navigation bar at the top, click Open, navigate to `C:\Users\username\Documents\Sonic-Mania-Android-Sheeple\Sonic-Mania-Decompilation\dependencies\RSDKv5\android` (replacing 'username' with whatever your User folder is called) and click OK. Android Studio will then run some automatic actions in the background to import the project.
