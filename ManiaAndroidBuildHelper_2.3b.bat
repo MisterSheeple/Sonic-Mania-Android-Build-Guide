@@ -1,7 +1,6 @@
 @echo off
 echo ------------------------------------------------------
-echo MisterSheeple's Sonic Mania Android Build Helper v2.2b
-echo 	     Additional code edits by KiaraGale
+echo   KiaraGale's Sonic Mania Android Build Helper v2.3b
 echo ------------------------------------------------------
 echo.
 echo                                                  WARNING:
@@ -96,6 +95,7 @@ if /I %extraslotamy%==n (goto mainsymlinksetup)
 git clone https://github.com/Kiaru-the-Fox/Sonic-Mania-Decomp-Extra-Slot-Amy.git "%USERPROFILE%"\Documents\Sonic-Mania-Android-Sheeple\Sonic-Mania-Decomp-Extra-Slot-Amy
 cd "%USERPROFILE%"\Documents\Sonic-Mania-Android-Sheeple\Sonic-Mania-Decomp-Extra-Slot-Amy
 xcopy "%USERPROFILE%"\Documents\Sonic-Mania-Android-Sheeple\Sonic-Mania-Decomp-Extra-Slot-Amy\SonicMania "%USERPROFILE%"\Documents\Sonic-Mania-Android-Sheeple\Sonic-Mania-Decompilation\SonicMania /s /y /i
+xcopy "%USERPROFILE%"\Documents\Sonic-Mania-Android-Sheeple\Sonic-Mania-Decomp-Extra-Slot-Amy\dependencies "%USERPROFILE%"\Documents\Sonic-Mania-Android-Sheeple\Sonic-Mania-Decompilation\dependencies /s /y /i
 goto mainsymlinksetup
 
 :mainsymlinksetup
@@ -111,7 +111,7 @@ goto finish
 cls
 color AF
 echo --------------------------------------------------------------------------------------------------------------------
-echo SETUP COMPLETE. Please continue with the guide at https://github.com/MisterSheeple/Sonic-Mania-Android-Build-Guide/
+echo SETUP COMPLETE. Please continue with the guide at https://github.com/Kiaru-The-Fox/Sonic-Mania-Android-Build-Guide/
 echo --------------------------------------------------------------------------------------------------------------------
 echo.
 pause
