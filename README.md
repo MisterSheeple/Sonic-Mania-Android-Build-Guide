@@ -34,6 +34,5 @@ This is a guide to building your own Sonic Mania APK for Android. This guide is 
 
 ## Support
 
-If you need any support, please feel free to reach out to the Retro Engine Modding Server on Discord. Invite: http://dc.railgun.works/retroengine
-
-Zoe the Fox is also available for direct support, via the Discord alias "KiaraGale#8677".
+If you need any support, please feel free to reach out to the [Retro Engine Modding Server](http://dc.railgun.works/retroengine) on Discord.
+I am also available for direct support, via the Discord alias "KiaraGale#8677".
