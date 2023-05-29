@@ -8,7 +8,7 @@ This is a guide to building your own Sonic Mania APK for Android. This guide is 
 
 2. Install Android Studio from [here](https://developer.android.com/studio) if you don't already have it.
 
-3. Download the **Sonic Mania Android Build Helper** script from [here]( https://raw.githubusercontent.com/MisterSheeple/Sonic-Mania-Android-Build-Guide/main/ManiaAndroidBuildHelper_2.0.bat). Press "Ctrl + S" after clicking the link, and save it as a `.bat` file. This script will automate a lot of the difficult parts of the Android build process to make compilation easier.
+3. Download the **Sonic Mania Android Build Helper** script from [here]( https://raw.githubusercontent.com/Kiaru-the-Fox/Sonic-Mania-Android-Build-Guide/main/ManiaAndroidBuildHelper_2.0.bat). Press "Ctrl + S" after clicking the link, and save it as a `.bat` file. This script will automate a lot of the difficult parts of the Android build process to make compilation easier.
 
 4. Locate `ManiaAndroidBuildHelper_2.0.bat` and place it somewhere easy-to-access. No specific location is required.
 
